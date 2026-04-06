@@ -78,3 +78,9 @@
         };
     };
 };
+
+
+&msc {
+    scroll-step = <1>;
+    scroll-delay-ms = <5>;
+};
