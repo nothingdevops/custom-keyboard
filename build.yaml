@@ -148,12 +148,12 @@ include:
     cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
     artifact-name: nice_sofle_right_oled
 
-  # debug build (tạm thời - xóa sau khi debug xong)
-  - board: nice_nano_v2
-    shield: sofle_left nice_oled
-    cmake-args: -DCONFIG_ZMK_SLEEP=n -DCONFIG_ZMK_IDLE_TIMEOUT=60000
-    artifact-name: nice_sofle_left_oled_debug
-    snippet: zmk-usb-logging
+  # # debug build (tạm thời - xóa sau khi debug xong)
+  # - board: nice_nano_v2
+  #   shield: sofle_left nice_oled
+  #   cmake-args: -DCONFIG_ZMK_SLEEP=n -DCONFIG_ZMK_IDLE_TIMEOUT=60000
+  #   artifact-name: nice_sofle_left_oled_debug
+  #   snippet: zmk-usb-logging
 
   # peripheral_left
   - board: nice_nano_v2
